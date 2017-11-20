@@ -1,0 +1,10 @@
+Quick-Cocos2dx-Community C++ support ready.
+
+------------------------------------------------
+
+LOAD LUA FILE: E:/workspace/lua/qipaicocos//src/main.lua
+
+------------------------------------------------
+
+[LUA ERROR] load "E:/workspace/lua/qipaicocos//src/main.lua", error: syntax error during pre-compilation.
+

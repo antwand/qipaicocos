@@ -1,4 +1,10 @@
+frameworks
 frameworks\runtime-src\proj.android\app\build
+
+simulator
+doc\腾讯云语音
+
+.settings
 
 # Prerequisites
 *.d
