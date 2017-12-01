@@ -1,5 +1,6 @@
 
 frameworks\runtime-src\proj.android\app\build
+frameworks\runtime-src\proj.android\libcocos2dx\build
 
 simulator
 doc\腾讯云语音
