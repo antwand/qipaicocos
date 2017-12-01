@@ -1,0 +1,1 @@
+{"GameVersion": "1.0.0", "packages": ["game", "gameA"], "asserts": {"game32.zip": ["2aa2ebe5f226b61e49cb80c4c2496091", 241846], "HelloWorld.png": ["55ea4e952bf080f300379ec26723598b", 37864], "readme.txt": ["311f9c0ce6d3b33b93364d4e71577054", 9]}, "EngineVersion": "1.0.0"}
