@@ -8,7 +8,6 @@ require("framework.init")
 require("engin.init")
 
 
-
 local AppBase = require("framework.AppBase")
 local MyApp = class("MyApp", AppBase)
 
@@ -17,9 +16,11 @@ function MyApp:ctor()
 end
 
 function MyApp:run()
-print("cc.exports.GameConfig:",cc.exports.GameConfig);
     cc.FileUtils:getInstance():addSearchPath("res/")
-    self:enterScene("launcher.launcher1.LauncherScene")
+    --self:enterScene("launcher.launcher1.LauncherScene")
+    --self:enterScene("app.test.PbTestScene")
+    --self:enterScene("app.test.SprotoTestScene")
+    self:enterScene("app.login.LoginScene")
 end
 
 return MyApp

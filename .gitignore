@@ -1,9 +1,14 @@
 
 frameworks\runtime-src\proj.android\app\build
 frameworks\runtime-src\proj.android\libcocos2dx\build
+frameworks\runtime-src\proj.win32\Debug
+frameworks\runtime-src\proj.win32\Debug.win32
 
 simulator
 doc\腾讯云语音
+debug.log
+
+
 
 .settings
 
