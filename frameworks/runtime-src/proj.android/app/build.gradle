@@ -4,7 +4,7 @@ android {
     buildToolsVersion '25.0.2'
 
     defaultConfig {
-        applicationId "org.ant.qipaicocos"
+        applicationId "org.antwand.qipaiquick3cocos"
         minSdkVersion 10
         targetSdkVersion 23
         versionCode 1
