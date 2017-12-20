@@ -13,6 +13,9 @@
 #endif
 
 
+#include "src/lua_extensions.h"
+
+
 USING_NS_CC;
 using namespace std;
 
@@ -94,7 +97,7 @@ bool AppDelegate::applicationDidFinishLaunching()
     auto director = Director::getInstance();
     auto glview = director->getOpenGLView();    
     if(!glview) {
-        string title = "qipaicocos";
+        string title = "qipaiquick3cocos";
         glview = cocos2d::GLViewImpl::create(title.c_str());
         director->setOpenGLView(glview);
         director->startAnimation();
@@ -107,6 +110,8 @@ bool AppDelegate::applicationDidFinishLaunching()
 
     // use Quick-Cocos2d-X
     quick_module_register(L);
+
+	//luaopen_sproto_lua_extensions(L);
     
     // resource decode, include game.zip
     //FileUtils::getInstance()->setFileDataDecoder(decoder);
